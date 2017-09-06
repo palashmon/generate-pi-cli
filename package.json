@@ -1,6 +1,6 @@
 {
     "name": "generate-pi-cli",
-    "version": "0.1.3",
+    "version": "0.2.0",
     "description": "Find PI(π) to the Nth Digit",
     "license": "MIT",
     "repository": {
