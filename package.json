@@ -29,7 +29,7 @@
     ],
     "dependencies": {
         "meow": "^3.7.0",
-        "generate-pi": "~1.3.0"
+        "generate-pi": "~1.4.0"
     },
     "devDependencies": {
         "ava": "^0.22.0",
