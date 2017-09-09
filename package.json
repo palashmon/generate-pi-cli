@@ -1,38 +1,54 @@
 {
-    "name": "generate-pi-cli",
-    "version": "0.3.0",
-    "description": "Find PI(π) to the Nth Digit",
-    "license": "MIT",
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/palashmon/generate-pi-cli.git"
-    },
-    "author": "Palash Mondal <palashm@live.in>",
-    "bin": {
-        "gen-pi": "./src/index.js"
-    },
-    "engines": {
-        "node": ">=4"
-    },
-    "scripts": {
-        "test": "ava --verbose"
-    },
-    "files": [
-        "src/index.js"
-    ],
-    "keywords": [
-        "cli",
-        "cli-app",
-        "generate",
-        "pi",
-        "π"
-    ],
-    "dependencies": {
-        "meow": "^3.7.0",
-        "generate-pi": "~1.4.0"
-    },
-    "devDependencies": {
-        "ava": "^0.22.0",
-        "execa": "^0.8.0"
+  "name": "generate-pi-cli",
+  "version": "0.0.0-development",
+  "description": "Find PI(π) to the Nth Digit",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/palashmon/generate-pi-cli.git"
+  },
+  "author": "Palash Mondal <palashm@live.in>",
+  "bin": {
+    "gen-pi": "./src/index.js"
+  },
+  "engines": {
+    "node": ">=7"
+  },
+  "scripts": {
+    "test": "ava --verbose",
+    "precommit": "npm run test",
+    "commit": "git-cz",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
+  },
+  "release": {
+    "debug": false
+  },
+  "files": [
+    "src/index.js"
+  ],
+  "keywords": [
+    "cli",
+    "cli-app",
+    "generate",
+    "pi",
+    "π"
+  ],
+  "dependencies": {
+    "meow": "^3.7.0",
+    "generate-pi": "~1.4.0"
+  },
+  "devDependencies": {
+    "ava": "^0.22.0",
+    "commitizen": "^2.9.6",
+    "cz-conventional-changelog": "^2.0.0",
+    "execa": "^0.8.0",
+    "husky": "^0.14.3",
+    "semantic-release": "^7.0.2",
+    "validate-commit-msg": "^2.14.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "node_modules/cz-conventional-changelog"
     }
+  }
 }
