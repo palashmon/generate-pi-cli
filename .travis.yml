@@ -1,14 +1,16 @@
-dist: trusty
 sudo: false
 language: node_js
 node_js:
-  - 8
+  - '8'
+  - '6'
+  - '4'
 cache:
   directories:
     - node_modules
 branches:
   only:
     - master
+    - gpc-tests
     - /^greenkeeper/.*$/
 notifications:
   email: false
@@ -18,5 +20,3 @@ install:
   - npm install
 before_script:
   - npm prune
-after_success:
-  - npm run semantic-release
