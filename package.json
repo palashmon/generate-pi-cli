@@ -12,7 +12,7 @@
     "gen-pi": "./src/index.js"
   },
   "engines": {
-    "node": ">=7"
+    "node": ">=8"
   },
   "scripts": {
     "test": "ava --verbose",
