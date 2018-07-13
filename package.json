@@ -19,7 +19,7 @@
 		"precommit": "npm run test",
 		"commit": "git-cz",
 		"semantic-release": "semantic-release pre && npm publish && semantic-release post",
-		"cover": "nyc --reporter=lcov ava"
+		"cover": "nyc ava"
 	},
 	"release": {
 		"debug": false
