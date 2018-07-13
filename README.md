@@ -1,24 +1,23 @@
-# generate-pi
+# generate-pi CLI
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/palashmon/generate-pi-cli.svg)](https://greenkeeper.io/)
+> Find PI(π) to the Nth Digit
+
 [![Build Status](https://travis-ci.org/palashmon/generate-pi-cli.svg?branch=master)](https://travis-ci.org/palashmon/generate-pi-cli)
 [![npm version](https://img.shields.io/npm/v/generate-pi-cli.svg)](http://npm.im/generate-pi-cli)
+[![codecov](https://codecov.io/gh/palashmon/generate-pi-cli/branch/master/graph/badge.svg)](https://codecov.io/gh/palashmon/generate-pi-cli)
+[![Greenkeeper badge](https://badges.greenkeeper.io/palashmon/generate-pi-cli.svg)](https://greenkeeper.io/)
 [![npm downloads](https://img.shields.io/npm/dm/generate-pi-cli.svg)](http://npm.im/generate-pi-cli)
 [![Dependency Status](https://david-dm.org/palashmon/generate-pi-cli.svg)](https://david-dm.org/palashmon/generate-pi-cli)
-[![MIT License](https://img.shields.io/npm/l/generate-pi-cli.svg?colorB=0BD6D3)](http://opensource.org/licenses/MIT)
-
-Find PI(π) to the Nth Digit 
 
 ## Install
 
-``` bash
-$ npm install --global generate-pi-cli
+```bash
+$ npm install -g generate-pi-cli
 ```
-
 
 ## Usage
 
-``` bash
+```bash
 $ gen-pi --help
 
   Usage

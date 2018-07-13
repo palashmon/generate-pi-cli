@@ -1,5 +1,7 @@
 language: node_js
-node_js: 10
+node_js:
+  - '10'
+  - '8'
 cache:
   directories:
     - node_modules
@@ -13,8 +15,12 @@ before_install:
   - "npm i -g npm@latest"
 install:
   - npm install
+  - npm install -g codecov
 before_script:
   - npm prune
+script:
+  - npm run cover
+  - codecov
 deploy:
   provider: script
   skip_cleanup: true
