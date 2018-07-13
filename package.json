@@ -18,8 +18,7 @@
 		"test": "ava --verbose",
 		"precommit": "npm run test",
 		"commit": "git-cz",
-		"semantic-release": "semantic-release pre && npm publish && semantic-release post",
-		"cover": "nyc ava"
+		"semantic-release": "semantic-release pre && npm publish && semantic-release post"
 	},
 	"release": {
 		"debug": false
@@ -44,7 +43,6 @@
 		"cz-conventional-changelog": "^2.0.0",
 		"execa": "^0.10.0",
 		"husky": "^0.14.3",
-		"nyc": "^12.0.2",
 		"semantic-release": "^15.6.1",
 		"validate-commit-msg": "^2.14.0"
 	},

@@ -4,7 +4,6 @@
 
 [![Build Status](https://travis-ci.org/palashmon/generate-pi-cli.svg?branch=master)](https://travis-ci.org/palashmon/generate-pi-cli)
 [![npm version](https://img.shields.io/npm/v/generate-pi-cli.svg)](http://npm.im/generate-pi-cli)
-[![codecov](https://codecov.io/gh/palashmon/generate-pi-cli/branch/master/graph/badge.svg)](https://codecov.io/gh/palashmon/generate-pi-cli)
 [![Greenkeeper badge](https://badges.greenkeeper.io/palashmon/generate-pi-cli.svg)](https://greenkeeper.io/)
 [![npm downloads](https://img.shields.io/npm/dm/generate-pi-cli.svg)](http://npm.im/generate-pi-cli)
 [![Dependency Status](https://david-dm.org/palashmon/generate-pi-cli.svg)](https://david-dm.org/palashmon/generate-pi-cli)
