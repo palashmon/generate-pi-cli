@@ -10,9 +10,10 @@ branches:
 notifications:
   email: false
 before_install:
-  - "npm i -g npm@latest"
+  - "npm i -g npm@latest"  
 install:
   - npm install
+  - npm i @octokit/request-error
 before_script:
   - npm prune
 deploy:
