@@ -41,7 +41,7 @@
 		"ava": "~2.1.0",
 		"commitizen": "^3.0.0",
 		"cz-conventional-changelog": "^2.0.0",
-		"execa": "^1.0.0",
+		"execa": "^2.0.0",
 		"husky": "^2.1.0",
 		"semantic-release": "^15.6.1",
 		"validate-commit-msg": "^2.14.0"
