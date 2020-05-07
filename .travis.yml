@@ -1,12 +1,13 @@
 language: node_js
-node_js: 10
+node_js:
+  - node
 cache:
   directories:
     - node_modules
 branches:
   only:
     - master
-    - /^greenkeeper/.*$/
+    - /^snyk/.*$/
 notifications:
   email: false
 before_install:
@@ -18,6 +19,6 @@ before_script:
   - npm prune
 deploy:
   provider: script
-  skip_cleanup: true
+  cleanup: true
   script:
     - npx semantic-release
