@@ -34,7 +34,7 @@
 		"π"
 	],
 	"dependencies": {
-		"meow": "~6.1.0",
+		"meow": "~7.0.0",
 		"generate-pi": "~1.5.10"
 	},
 	"devDependencies": {
