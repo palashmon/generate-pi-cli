@@ -1,13 +1,6 @@
 language: node_js
 node_js:
-  - node
-cache:
-  directories:
-    - node_modules
-branches:
-  only:
-    - master
-    - /^snyk/.*$/
+  - '8'
 notifications:
   email: false
 before_install:
