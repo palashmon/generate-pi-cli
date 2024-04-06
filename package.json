@@ -1,54 +1,60 @@
 {
 	"name": "generate-pi-cli",
-	"version": "0.0.0-development",
+	"version": "1.0.0-beta.0",
 	"description": "Find PI(π) to the Nth Digit",
 	"license": "MIT",
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/palashmon/generate-pi-cli.git"
-	},
+	"repository": "palashmon/generate-pi-cli",
 	"author": "Palash Mondal <palashm@live.in>",
+	"type": "module",
 	"bin": {
-		"gen-pi": "./src/index.js"
+		"gen-pi": "./cli.js"
 	},
 	"engines": {
-		"node": ">=8"
+		"node": ">=18"
 	},
 	"scripts": {
-		"test": "ava --verbose",
-		"precommit": "npm run test",
-		"commit": "git-cz",
-		"semantic-release": "semantic-release pre && npm publish && semantic-release post"
-	},
-	"release": {
-		"debug": false
+		"test": "xo && ava",
+		"lint": "xo --fix"
 	},
 	"files": [
-		"src/index.js"
+		"cli.js"
 	],
 	"keywords": [
 		"cli",
 		"cli-app",
+		"algorithm",
+		"calculation",
+		"circle",
+		"circumference",
+		"constant",
+		"decimal",
+		"diameter",
 		"generate",
+		"geometry",
+		"library",
+		"math",
+		"mathematical",
+		"mathematics",
+		"number",
 		"pi",
+		"precision",
+		"ratio",
+		"tiny",
 		"π"
 	],
 	"dependencies": {
-		"meow": "~10.0.0",
-		"generate-pi": "~1.5.10"
+		"meow": "^13.0.0",
+		"generate-pi": "^1.6.0",
+		"is-positive-int": "^1.1.0"
 	},
 	"devDependencies": {
-		"ava": "~3.8.0",
-		"commitizen": "^4.0.0",
-		"cz-conventional-changelog": "^3.0.0",
-		"execa": "^4.0.0",
-		"husky": "^4.0.2",
-		"semantic-release": "^17.0.0",
-		"validate-commit-msg": "^2.14.0"
+		"ava": "^6.0.0",
+		"execa": "^8.0.0",
+		"xo": "^0.58.0"
 	},
-	"config": {
-		"commitizen": {
-			"path": "node_modules/cz-conventional-changelog"
-		}
+	"xo": {
+		"ignores": [
+			"test.js"
+		]
 	}
 }

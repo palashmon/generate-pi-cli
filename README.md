@@ -1,12 +1,10 @@
-# generate-pi CLI
+# generate-pi-cli
 
 > Find PI(π) to the Nth Digit
 
-[![Build Status](https://travis-ci.org/palashmon/generate-pi-cli.svg?branch=master)](https://travis-ci.org/palashmon/generate-pi-cli)
+![CI](https://github.com/palashmon/generate-pi-cli/actions/workflows/main.yml/badge.svg)
 [![npm version](https://img.shields.io/npm/v/generate-pi-cli.svg)](http://npm.im/generate-pi-cli)
-
 [![npm downloads](https://img.shields.io/npm/dm/generate-pi-cli.svg)](http://npm.im/generate-pi-cli)
-[![Dependency Status](https://david-dm.org/palashmon/generate-pi-cli.svg)](https://david-dm.org/palashmon/generate-pi-cli)
 
 ## Install
 
