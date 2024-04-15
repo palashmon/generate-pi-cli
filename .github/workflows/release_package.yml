@@ -18,7 +18,7 @@ jobs:
     steps:
       - name: Release level check
         run: |
-          case "$RELEASE_LEVEL" in
+          case "$RELEASE_TYPE" in
             major|minor|patch|premajor|preminor|prepatch|prerelease)
               echo "Release-level is OK"
               ;;
@@ -28,7 +28,7 @@ jobs:
               ;;
           esac
         env:
-          RELEASE_LEVEL: ${{ github.event.inputs.release-level }}
+          RELEASE_TYPE: ${{ github.event.inputs.release-type }}
 
       # Checkout project repository
       - name: Checkout
