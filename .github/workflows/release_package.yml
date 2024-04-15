@@ -16,20 +16,6 @@ jobs:
   release:
     runs-on: ubuntu-latest
     steps:
-      - name: Release level check
-        run: |
-          case "$RELEASE_TYPE" in
-            major|minor|patch|premajor|preminor|prepatch|prerelease)
-              echo "Release-level is OK"
-              ;;
-            *)
-              echo "Unknown release-level"
-              exit 1
-              ;;
-          esac
-        env:
-          RELEASE_TYPE: ${{ github.event.inputs.release-type }}
-
       # Checkout project repository
       - name: Checkout
         uses: actions/checkout@v4
