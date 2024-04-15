@@ -1,27 +1,28 @@
 {
-	"$schema": "https://docs.renovatebot.com/renovate-schema.json",
-	"extends": [
-		"config:recommended"
-	],
-	"commitMessagePrefix": "fix",
-	"commitMessageAction": "bump",
-  "commitMessageExtra": "to {{newValue}}",
-  "commitMessageTopic": "{{depName}}",	
-  "dependencyDashboard": true,
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
+    "config:recommended"
+  ],
+  "baseBranches": ["master"],
+  "pinVersions": false,
+  "commitMessageAction": "update",
+  "commitMessageExtra": "to version {{newVersion}}",
+  "commitMessageTopic": "{{depName}}",
   "rebaseWhen": "conflicted",
   "ignoreDeps": [],
-  "labels": ["dependencies"],	
-	"prConcurrentLimit": 30,
-  "prHourlyLimit": 0,
-	"packageRules": [
+  "labels": ["dependencies"],
+  "packageRules": [
     {
-      "updateTypes": [
-        "minor",
-        "patch"
-      ],
+      "matchUpdateTypes": ["minor", "patch"],
       "automerge": true
     }
   ],
+  "platformAutomerge": true,
+  "prConcurrentLimit": 30,
+  "prHourlyLimit": 2,
+  "major": {
+    "enabled": false
+  },
   "timezone": "UTC",
   "schedule": [
     "after 10pm every weekday",
