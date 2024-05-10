@@ -1,60 +1,60 @@
 {
-	"name": "generate-pi-cli",
-	"version": "1.0.1",
-	"description": "Find PI(π) to the Nth Digit",
-	"license": "MIT",
-	"repository": "palashmon/generate-pi-cli",
-	"author": "Palash Mondal <palashm@live.in>",
-	"type": "module",
-	"bin": {
-		"gen-pi": "./cli.js"
-	},
-	"engines": {
-		"node": ">=18.20.2"
-	},
-	"scripts": {
-		"test": "xo && ava",
-		"lint": "xo --fix"
-	},
-	"files": [
-		"cli.js"
-	],
-	"keywords": [
-		"cli",
-		"cli-app",
-		"algorithm",
-		"calculation",
-		"circle",
-		"circumference",
-		"constant",
-		"decimal",
-		"diameter",
-		"generate",
-		"geometry",
-		"library",
-		"math",
-		"mathematical",
-		"mathematics",
-		"number",
-		"pi",
-		"precision",
-		"ratio",
-		"tiny",
-		"π"
-	],
-	"dependencies": {
-		"meow": "^13.2.0",
-		"generate-pi": "^1.7.0",
-		"is-positive-int": "^1.3.0"
-	},
-	"devDependencies": {
-		"ava": "6.1.3",
-		"execa": "8.0.1",
-		"xo": "0.58.0"
-	},
-	"xo": {
-		"ignores": [
-			"test.js"
-		]
-	}
+  "name": "generate-pi-cli",
+  "version": "1.1.0",
+  "description": "Find PI(π) to the Nth Digit",
+  "license": "MIT",
+  "repository": "palashmon/generate-pi-cli",
+  "author": "Palash Mondal <palashm@live.in>",
+  "type": "module",
+  "bin": {
+    "gen-pi": "./cli.js"
+  },
+  "engines": {
+    "node": ">=18.20.2"
+  },
+  "scripts": {
+    "test": "xo && ava",
+    "lint": "xo --fix"
+  },
+  "files": [
+    "cli.js"
+  ],
+  "keywords": [
+    "cli",
+    "cli-app",
+    "algorithm",
+    "calculation",
+    "circle",
+    "circumference",
+    "constant",
+    "decimal",
+    "diameter",
+    "generate",
+    "geometry",
+    "library",
+    "math",
+    "mathematical",
+    "mathematics",
+    "number",
+    "pi",
+    "precision",
+    "ratio",
+    "tiny",
+    "π"
+  ],
+  "dependencies": {
+    "meow": "^13.2.0",
+    "generate-pi": "^1.7.0",
+    "is-positive-int": "^1.3.0"
+  },
+  "devDependencies": {
+    "ava": "6.1.3",
+    "execa": "8.0.1",
+    "xo": "0.58.0"
+  },
+  "xo": {
+    "ignores": [
+      "test.js"
+    ]
+  }
 }
