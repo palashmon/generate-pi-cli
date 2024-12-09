@@ -50,7 +50,7 @@
   "devDependencies": {
     "ava": "6.2.0",
     "execa": "8.0.1",
-    "xo": "0.59.3"
+    "xo": "0.60.0"
   },
   "xo": {
     "ignores": [
