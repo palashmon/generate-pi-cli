@@ -44,8 +44,8 @@
   ],
   "dependencies": {
     "meow": "^13.2.0",
-    "generate-pi": "^1.22.0",
-    "is-positive-int": "^1.20.0"
+    "generate-pi": "^1.23.0",
+    "is-positive-int": "^1.21.0"
   },
   "devDependencies": {
     "ava": "6.2.0",
