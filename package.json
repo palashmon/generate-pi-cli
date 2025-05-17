@@ -10,7 +10,7 @@
     "gen-pi": "./cli.js"
   },
   "engines": {
-    "node": ">=20.19.1"
+    "node": ">=20.19.2"
   },
   "scripts": {
     "test": "xo && ava",
