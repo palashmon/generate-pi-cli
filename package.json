@@ -48,7 +48,7 @@
     "is-positive-int": "^1.22.0"
   },
   "devDependencies": {
-    "ava": "6.3.0",
+    "ava": "6.4.0",
     "execa": "8.0.1",
     "xo": "0.61.1"
   },
